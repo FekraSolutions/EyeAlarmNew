@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EyeRelax-20 Mins Alarm</title>
-    <style>
+  
+    <style>   
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #ccc; /* Set the dropdown list to grey */
+    border: 1px solid black;
+    z-index: 10;
+}
+
+#dropdown div {
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ccc; /* Default option background color */
+}
+
+#dropdown div:hover {
+    background-color: #bbb; /* Slightly darker grey on hover */
+}    
     </style>
+    
 </head>
 <body>
 </body>
